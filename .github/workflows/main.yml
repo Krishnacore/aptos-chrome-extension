@@ -13,7 +13,6 @@ jobs:
         with:
           node-version: 14
       - run: bash ./development/packages-link.sh
-      - run: yarn add ./packages/pontem-providers
       - run: yarn
       - run: yarn setup
       - run: yarn dist
